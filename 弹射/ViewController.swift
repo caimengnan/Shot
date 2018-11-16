@@ -9,20 +9,23 @@
 import UIKit
 
 class ViewController: UIViewController {
-
     
     lazy var springView:SpringView = {
         let springView = SpringView(frame: self.view.bounds)
         springView.backgroundColor = .white
+        springView.isUserInteractionEnabled = true
         return springView
     }()
+    
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
         view.backgroundColor = .white
         view.addSubview(springView)
+        
     }
-
-
+    
+    
 }
 
