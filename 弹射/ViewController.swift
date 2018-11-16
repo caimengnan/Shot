@@ -10,9 +10,17 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    
+    lazy var springView:SpringView = {
+        let springView = SpringView(frame: self.view.bounds)
+        springView.backgroundColor = .white
+        return springView
+    }()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        view.backgroundColor = .white
+        view.addSubview(springView)
     }
 
 

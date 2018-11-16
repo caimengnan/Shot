@@ -14,6 +14,8 @@
 		BB07A67A219C54480050A63B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB07A678219C54480050A63B /* LaunchScreen.storyboard */; };
 		BB07A685219C54480050A63B /* __Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB07A684219C54480050A63B /* __Tests.swift */; };
 		BB07A690219C54480050A63B /* __UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB07A68F219C54480050A63B /* __UITests.swift */; };
+		BB07A69E219C548C0050A63B /* SpringView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB07A69D219C548C0050A63B /* SpringView.swift */; };
+		BB07A6A0219D0FF50050A63B /* AppGlobal.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB07A69F219D0FF50050A63B /* AppGlobal.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		BB07A68B219C54480050A63B /* 弹射UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "弹射UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB07A68F219C54480050A63B /* __UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = __UITests.swift; sourceTree = "<group>"; };
 		BB07A691219C54480050A63B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BB07A69D219C548C0050A63B /* SpringView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpringView.swift; sourceTree = "<group>"; };
+		BB07A69F219D0FF50050A63B /* AppGlobal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppGlobal.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +103,8 @@
 			children = (
 				BB07A66F219C54460050A63B /* AppDelegate.swift */,
 				BB07A671219C54460050A63B /* ViewController.swift */,
+				BB07A69D219C548C0050A63B /* SpringView.swift */,
+				BB07A69F219D0FF50050A63B /* AppGlobal.swift */,
 				BB07A673219C54460050A63B /* Main.storyboard */,
 				BB07A676219C54480050A63B /* Assets.xcassets */,
 				BB07A678219C54480050A63B /* LaunchScreen.storyboard */,
@@ -256,8 +262,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BB07A6A0219D0FF50050A63B /* AppGlobal.swift in Sources */,
 				BB07A672219C54460050A63B /* ViewController.swift in Sources */,
 				BB07A670219C54460050A63B /* AppDelegate.swift in Sources */,
+				BB07A69E219C548C0050A63B /* SpringView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
